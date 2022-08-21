@@ -6156,11 +6156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crist\\Documents\\Codigos\\.Net\\Clone\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-master\\CiaAerea.csproj",
+      "projectUniqueName": "C:\\Users\\crist\\Documents\\Codigos\\.Net\\Projetos\\apiCompanhiaAerea\\CiaAerea.csproj",
       "projectName": "CiaAerea",
-      "projectPath": "C:\\Users\\crist\\Documents\\Codigos\\.Net\\Clone\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-master\\CiaAerea.csproj",
+      "projectPath": "C:\\Users\\crist\\Documents\\Codigos\\.Net\\Projetos\\apiCompanhiaAerea\\CiaAerea.csproj",
       "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crist\\Documents\\Codigos\\.Net\\Clone\\treinaweb-projeto-pratico-api-companhia-aerea-asp-net-master\\obj\\",
+      "outputPath": "C:\\Users\\crist\\Documents\\Codigos\\.Net\\Projetos\\apiCompanhiaAerea\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config"

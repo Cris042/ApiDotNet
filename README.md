@@ -1,36 +1,31 @@
-# Projeto ASP.NET Core Web API para gerenciamento de companhias aéreas
+<h1 align="center">
+    Projeto ASP.NET Core Web API para gerenciamento de companhias aéreas
+</h1>
+    <p align="center"> Projeto desenvolvido com ajuda da treinaweb </p>
+<hr>
 
-## Como executar o projeto
+## Tecnologias 🚀 
 
-**Clonar o repositório**
-```
-git clone https://github.com/treinaweb/treinaweb-projeto-pratico-api-companhia-aerea-asp-net.git
-```
+- [x] dotnet6
+- [x] postgres
+- [x] swagger
 
-**Restaurar os pacotes**
+## Depedencias globais necessarias 💻
 
-Navegar para a pasta do projeto clonado e executar o seguinte comando:
+- [x] docker
+- [x] docker-ef
 
-```
-dotnet restore
-```
+## Inicializar BD
 
-**Executar a aplicação**
+1. Run `dotnet ef migrations add nameMiGrations`.<br />
+2. Run `dotnet ef database update nameMiGrations`.<br />
+## Inicializar projeto
 
-Executar o seguinte comando ou utilizar a ferramenta de Debug do Visual Studio u Visual Studio Code (normalmente pressionando F5):
-```
-dotnet run
-```
+1. Run `dotnet restore`.<br />
+2. Run `dotnet run`.<br />
 
-## Como testar a API
+## Testa projeto
 
-**Acessar a interface de teste do Swagger***
-A UI do Swagger estará disponível na URL https://localhost:[porta]/swagger (a porta pode variar e deve ser observada no terminal ao executar o projeto).
+## Documentação da Api 
+  -> https://localhost:[porta]/swagger
 
-**Consumir os endpoints**
-Sugestão de ordem para testar a aplicação:
-
-1) Criar, editar e excluir pacientes
-2) Criar, editar e excluir médicos
-3) Criar, editar e excluir monitoramentos do paciente
-4) Criar, editar e excluir consultas

@@ -21,7 +21,7 @@ public class CiaAereaContext: DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(_configuration.GetConnectionString("CiaAerea"));
+        optionsBuilder.UseNpgsql(_configuration.GetConnectionString("CiaAerea"));
     }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
